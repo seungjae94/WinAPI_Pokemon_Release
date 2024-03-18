@@ -1,0 +1,10 @@
+ID,Name,ImageName
+1,Normal,StatusPlaceHolder.png
+2,Sleep,StatusSleep.png
+3,Poison,StatusPoison.png
+4,Burn,StatusBurn.png
+5,Freeze,StatusFreeze.png
+6,Paralysis,StatusParalysis.png
+7,Faint,StatusFaint.png
+8,Seeded,None
+9,Bound,None

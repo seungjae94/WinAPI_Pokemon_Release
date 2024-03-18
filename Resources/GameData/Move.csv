@@ -1,0 +1,21 @@
+ID,Name,Explain,Type,PP,BasePower,Accuracy,Contact,BETarget,BEStatStageId,BEStatStageValue,BEStatus,SETarget,SERate,SEStatStageId,SEStatStageValue,SEStatus
+1,BUBBLE,A spray of bubbles\nhits the foe. It\nmay lower the\nfoe¡¯s SPEED stat.,Water,30,20,100,No,None,,,,Enemy,10,Speed,-1,
+2,EMBER,The foe is attacked\nwith small flames.\nThe foe may suffer\na burn.,Fire,25,40,100,No,None,,,,Enemy,10,,,Burn
+3,GROWL,"The user growls in\na cute way, making\nthe foe lower its\nATTACK stat.",Normal,40,0,100,No,Enemy,Atk,-1,,None,,,,
+4,GUST,Strikes the foe\nwith a gust of\nwind whipped\nup by wings.,Flying,35,40,100,No,None,,,,None,,,,
+5,LEECH SEED,A seed is planted\non the foe to steal\nsome HP for the\nuser on every turn.,Grass,10,0,90,No,Enemy,,,Seeded,None,,,,
+6,QUICK ATTACK,An almost invisibly\nfast attack that\nis certain to strike\nfirst.,Normal,30,40,100,Yes,None,,,,None,,,,
+7,SAND ATTACK,"A lot of sand is\nhurled in the foe¡¯s\nface, reducing its\naccuracy.",Ground,15,0,100,No,Enemy,Accuracy,-1,,None,,,,
+8,SCRATCH,"Hard, pointed, and\nsharp claws rake\nthe foe.",Normal,35,40,100,Yes,None,,,,None,,,,
+9,TACKLE,"A physical attack\nin which the user\ncharges, full body,\ninto the foe.",Normal,35,35,95,Yes,None,,,,None,,,,
+10,TAIL WHIP,"The user wags its\ntail cutely, making\nthe foe lower its\nDEFENSE stat.",Normal,30,0,100,No,Enemy,Def,-1,,None,,,,
+11,STRING SHOT,The foe is bound\nwith strings shot\nfrom the mouth to\nreduce its SPEED.,Bug,40,0,95,No,Enemy,Speed,-1,,None,,,,
+12,POISON STING,"The foe is stabbed\nwith a toxic\nbarb, etc. It\nmay poison the foe.",Poison,35,15,100,No,None,,,,Enemy,30,,,StatusPoison
+13,PECK,The foe is jabbed\nwith a sharply\npointed beak or horn.,Flying,35,35,100,Yes,None,,,,None,,,,
+14,LEER,The foe is given\nan intimidating look\nthat lowers its\nDEFENSE stat.,Normal,30,0,100,No,Enemy,Def,-1,,None,,,,
+15,LOW KICK,"A low, tripping kick\nthat inflicts more\ndamage on heavier\nfoes.",Fighting,20,0,100,Yes,None,,,,None,,,,
+16,DEFENSE CURL,The user curls up\nto conceal weak\nspots and raise\nits DEFENSE stat.,Normal,40,0,100,No,Self,Def,1,,None,,,,
+17,BIND,A long body or\ntentacles are used\nto bind the foe\nfor two to five turns.,Normal,20,15,75,Yes,Enemy,,,Bound,None,,,,
+18,ROCK THROW,"The foe is attacked\nwith a shower of\nsmall, easily thrown\nrocks.",Rock,15,50,90,No,None,,,,None,,,,
+19,HARDEN,The user stiffens all\nthe muscles in its\nbody to raise its\nDEFENSE stat.,Normal,30,0,100,No,Self,Def,1,,None,,,,
+20,VINE WHIP,"The foe is struck\nwith slender, whiplike\nvines.",Grass,10,35,100,Yes,None,,,,None,,,,
